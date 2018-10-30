@@ -3,14 +3,24 @@ variable "aws_region" {
   default = "us-east-1"
 }
 
-variable "lambda_function_name" {
+variable "trustymail_lambda_function_name" {
   type = "string"
-  description = "The name to use for the Lambda function"
+  description = "The name to use for the trustymail Lambda function"
 }
 
-variable "lambda_function_zip_file" {
+variable "trustymail_lambda_function_zip_file" {
   type = "string"
-  description = "The location of the zip file for the Lambda function"
+  description = "The location of the zip file for the trustymail Lambda function"
+}
+
+variable "sslyze_lambda_function_name" {
+  type = "string"
+  description = "The name to use for the sslyze Lambda function"
+}
+
+variable "sslyze_lambda_function_zip_file" {
+  type = "string"
+  description = "The location of the zip file for the sslyze Lambda function"
 }
 
 variable "tags" {
