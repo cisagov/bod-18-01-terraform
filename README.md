@@ -8,7 +8,7 @@ This code utilizes
 [`trustymail`](https://github.com/dhs-ncats/trustymail),
 [`trustymail-lambda`](https://github.com/dhs-ncats/trustymail-lambda),
 [`sslyze`](https://github.com/nabla-c0d3/sslyze), and
-[`trustymail-lambda`](https://github.com/dhs-ncats/sslyze-lambda).
+[`sslyze-lambda`](https://github.com/dhs-ncats/sslyze-lambda).
 
 ## Installation of the Terraform infrastructure ##
 
