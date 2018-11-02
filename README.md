@@ -1,15 +1,14 @@
-# trustymail-terraform :cloud: :zap: #
+# bod-18-01-terraform :cloud: :zap: #
 
-[![Build Status](https://travis-ci.com/dhs-ncats/trustymail-terraform.svg?branch=develop)](https://travis-ci.com/dhs-ncats/trustymail-terraform)
+[![Build Status](https://travis-ci.com/dhs-ncats/bod-18-01-terraform.svg?branch=develop)](https://travis-ci.com/dhs-ncats/bod-18-01-terraform)
 
-`trustymail-terraform` contains the Terraform code to build the AWS
-infrastrusture used for running Trustworthy Email scans.  This
-repository goes along with
-[`trustymail`](https://github.com/dhs-ncats/trustymail) and
-[`trustymail-lambda`](https://github.com/dhs-ncats/trustymail-lambda). These
-two repositories contain, respectively, the actual source code for
-performing the Trustworthy Email scans and the code to produce an AWS
-Lambda function based on that source code.
+`bod-18-01-terraform` contains the Terraform code to build the AWS
+infrastructure used for running BOD 18-01 Trustworthy Email scans.
+This code utilizes
+[`trustymail`](https://github.com/dhs-ncats/trustymail),
+[`trustymail-lambda`](https://github.com/dhs-ncats/trustymail-lambda),
+[`sslyze`](https://github.com/nabla-c0d3/sslyze), and
+[`trustymail-lambda`](https://github.com/dhs-ncats/sslyze-lambda).
 
 ## Installation of the Terraform infrastructure ##
 
