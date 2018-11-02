@@ -3,28 +3,23 @@ variable "aws_region" {
   default = "us-east-1"
 }
 
-variable "trustymail_lambda_function_name" {
-  type = "string"
-  description = "The name to use for the trustymail Lambda function"
+variable "scan_types" {
+  type = "list"
+  description = "The scan types that can be run."
 }
 
-variable "trustymail_lambda_function_zip_file" {
-  type = "string"
-  description = "The location of the zip file for the trustymail Lambda function"
+variable "lambda_function_names" {
+  type = "map"
+  description = "The names to use for the Lambda functions.  The keys are the values in scan_types."
 }
 
-variable "sslyze_lambda_function_name" {
-  type = "string"
-  description = "The name to use for the sslyze Lambda function"
-}
-
-variable "sslyze_lambda_function_zip_file" {
-  type = "string"
-  description = "The location of the zip file for the sslyze Lambda function"
+variable "lambda_function_zip_files" {
+  type = "map"
+  description = "The locations of the zip files for the Lambda functions.  The keys are the values in scan_types."
 }
 
 variable "tags" {
   type = "map"
-  default = {}
   description = "Tags to apply to all AWS resources created"
+  default = {}
 }
