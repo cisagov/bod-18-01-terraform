@@ -1,14 +1,14 @@
 # bod-18-01-terraform :cloud: :zap: #
 
-[![Build Status](https://travis-ci.com/dhs-ncats/bod-18-01-terraform.svg?branch=develop)](https://travis-ci.com/dhs-ncats/bod-18-01-terraform)
+[![Build Status](https://travis-ci.com/cisagov/bod-18-01-terraform.svg?branch=develop)](https://travis-ci.com/cisagov/bod-18-01-terraform)
 
 `bod-18-01-terraform` contains the Terraform code to build the AWS
 infrastructure used for running BOD 18-01 Trustworthy Email scans.
 This code utilizes
-[`trustymail`](https://github.com/dhs-ncats/trustymail),
-[`trustymail-lambda`](https://github.com/dhs-ncats/trustymail-lambda),
+[`trustymail`](https://github.com/cisagov/trustymail),
+[`trustymail-lambda`](https://github.com/cisagov/trustymail-lambda),
 [`sslyze`](https://github.com/nabla-c0d3/sslyze), and
-[`sslyze-lambda`](https://github.com/dhs-ncats/sslyze-lambda).
+[`sslyze-lambda`](https://github.com/cisagov/sslyze-lambda).
 
 ## Installation of the Terraform infrastructure ##
 
